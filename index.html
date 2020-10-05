@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="" />
+    <meta name="viewport" content="width=, initial-scale=" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1>Tic Tac Toe</h1>
+    <div id="score">
+      <p>X's Points: <span id="Xscore">0</span></p>
+      <p>O's Points: <span id="Oscore">0</span></p>
+    </div>
+    <div id="game"></div>
+    <div id="options">
+      <span>Rows:</span>
+      <input type="number" />
+      <input
+        type="checkbox"
+        id="checkbox"
+        onclick="switchModes(this.checked)"
+      />
+      <span id="checkbox-text">Play against AI</span>
+    </div>
+    <script src="src/utils.js"></script>
+    <script src="src/index.js"></script>
+  </body>
+</html>

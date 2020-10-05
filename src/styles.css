@@ -1,0 +1,46 @@
+body {
+  background: #323232; /* try type yellow */
+  color: white;
+
+  margin: 0;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  font-family: Monospace;
+}
+
+h1 {
+  color: white;
+}
+
+#score {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#game {
+  padding-bottom: 20px;
+}
+
+.btn {
+  background: #696969;
+  border: 1px solid #696969;
+  border-radius: 10%;
+
+  width: 100px;
+  height: 100px;
+
+  font-size: 50px;
+  margin: 3px;
+
+  font-family: Monospace;
+}
+
+.btn:hover {
+  background-color: #a9a9a9;
+}
