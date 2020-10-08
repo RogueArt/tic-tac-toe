@@ -1,5 +1,7 @@
 # Tic Tac Toe JS
-Demo link: https://codesandbox.io/s/delicate-star-5z73v?file=/src/index.js
+[Demo Link](https://codesandbox.io/s/delicate-star-5z73v?file=/src/index.js)
+
+![Image of Tic Tac Toe project](https://imgur.com/a/2Aevbh6)
 
 Tic Tac Toe game made with HTML/CSS/Vanilla JS.
 
