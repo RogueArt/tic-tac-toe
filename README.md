@@ -5,12 +5,12 @@
 
 Tic Tac Toe game made with HTML/CSS/Vanilla JS.
 
-Features (WIP):
+# Features (WIP)
 - Can expand the grid to any size
 - Allows for two players to play against each other
 - Automatic checking + resetting
 
-Features to be implemented:
+# To be implemented
 - AI with Minimax Tic Tac Toe algorithm
 - Change rows field to change the number of rows (without having to modify the variable directly in the code)
 - Use Vue or React instead of Vanilla JS
